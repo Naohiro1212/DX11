@@ -107,7 +107,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,// hInstance：実行中のアプ
             //float clearColor[4] = { 0.0f, 0.5f, 0.5f, 1.0f };//R,G,B,A
 
             //画面をクリア
-           // pContext->ClearRenderTargetView(pRenderTargetView, clearColor);
+            //pContext->ClearRenderTargetView(pRenderTargetView, clearColor);
             Direct3D::BeginDraw();
 
             //描画処理
